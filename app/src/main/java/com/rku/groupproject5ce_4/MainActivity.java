@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
 
 
 
-                startActivity(new Intent(MainActivity.this,MainActivity.class));
+                startActivity(new Intent(MainActivity.this,WelcomeScreen.class));
                 finish();
 
             }
