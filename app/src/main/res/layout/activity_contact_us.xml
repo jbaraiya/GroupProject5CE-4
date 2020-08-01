@@ -9,6 +9,7 @@
     android:layout_marginTop="7dp"
     android:layout_marginRight="7dp"
     android:layout_marginBottom="7dp"
+    android:background="#8462FE"
     tools:context=".ContactUs">
 
     <LinearLayout
@@ -31,7 +32,8 @@
             android:gravity="center_horizontal"
             android:text="Name"
             android:textColor="#000000"
-            android:textSize="24sp" />
+            android:textSize="24sp"
+            android:textStyle="bold" />
 
         <EditText
             android:id="@+id/editTextTextName"
@@ -65,7 +67,8 @@
             android:gravity="center_horizontal"
             android:text="Email"
             android:textColor="#000000"
-            android:textSize="24sp" />
+            android:textSize="24sp"
+            android:textStyle="bold" />
 
         <EditText
             android:id="@+id/editTextTextEmail"
@@ -73,7 +76,7 @@
             android:layout_width="match_parent"
             android:layout_height="32dp"
             android:layout_weight="1"
-            android:background="#FFFFFF"
+            android:background="#8462FE"
             android:ems="10"
             android:hint="Enter your email"
             android:inputType="textPersonName" />
@@ -100,7 +103,8 @@
             android:gravity="center_horizontal"
             android:text="Message"
             android:textColor="#000000"
-            android:textSize="24sp" />
+            android:textSize="24sp"
+            android:textStyle="bold" />
 
         <EditText
             android:id="@+id/editTextMessage"
@@ -119,7 +123,7 @@
         android:layout_width="wrap_content"
         android:layout_height="0dp"
         android:layout_marginTop="92dp"
-        android:background="#3A3A3A"
+        android:background="@drawable/round_bg"
         android:text="Submit"
         android:textColor="#FFFFFF"
         app:layout_constraintEnd_toEndOf="parent"
