@@ -3,6 +3,7 @@ package com.rku.groupproject5ce_4;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuInflater;
@@ -30,6 +31,20 @@ public class WelcomeScreen extends AppCompatActivity {
 
     @Override
     public boolean onOptionsItemSelected(@NonNull MenuItem item) {
+        switch(item.getItemId()){
+            case R.id.item1:
+                Intent intentLogin=new Intent(WelcomeScreen.this,LoginScreen.class);
+                startActivity(intentLogin);
+                break;
+            case R.id.item2:
+                Intent intentContentUs=new Intent(WelcomeScreen.this,ContactUs.class);
+                startActivity(intentContentUs);
+                break;
+            case R.id.item3:
+                Intent intentAboutUs=new Intent(WelcomeScreen.this,AboutUs.class);
+                startActivity(intentAboutUs);
+                break;
+        }
         return true;
     }
 }

@@ -11,7 +11,8 @@
         android:theme="@style/AppTheme">
         <activity android:name=".WelcomeScreen"
             android:label="Welcome"></activity>
-        <activity android:name=".AboutUs" />
+        <activity android:name=".AboutUs"
+            android:label="About Us"/>
         <activity android:name=".SpleshScreen" />
         <activity android:name=".ContactUs"
             android:label="Contact Us"/>
